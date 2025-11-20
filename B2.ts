@@ -40,28 +40,24 @@ console.log(`Base price: ${basePrice.toFixed(2)}`);
 if (choiceFloor.toLowerCase() == "yes") {
   basePrice = basePrice + floorMat;
   console.log(`Floor mats: ${floorMat.toFixed(2)}`);
-} else {
 }
 
 // navigation system
 if (choiceNav.toLowerCase() == "yes") {
   basePrice = basePrice + navSystem;
   console.log(`Navigation system: ${navSystem.toFixed(2)}`);
-} else {
 }
 
 // leather seats
 if (choiceLeather.toLowerCase() == "yes") {
   basePrice = basePrice + leatherSeats;
   console.log(`Heated leather seats: ${leatherSeats.toFixed(2)}`);
-} else {
 }
 
 // warranty
 if (choiceWarranty.toLowerCase() == "yes") {
   basePrice = basePrice + WARRANTY;
   console.log(`5-year extended warranty: ${WARRANTY.toFixed(2)}`);
-} else {
 }
 
 // tax
